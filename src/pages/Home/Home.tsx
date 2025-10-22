@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div ref={ref} className='home'>
       <div className='home-container'>
-        <Title title='Manuel Basanta' subtitle='Software developer / Designer' />
+        <Title title='Guillermo Rodriguez' subtitle='Full Stack Developer' />
         <AnimationBlock text='SCROLL' />
       </div>
     </div>

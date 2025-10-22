@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "Manuel Basant's website",
+  "description": "Guillermo Rodriguez's website",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --mode=development",
@@ -12,7 +12,7 @@
     "test:e2e": "cypress run",
     "cypress:open": "cypress open"
   },
-  "author": "Manuel Basanta",
+  "author": "Guillermo Rodriguez",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.18.5",
