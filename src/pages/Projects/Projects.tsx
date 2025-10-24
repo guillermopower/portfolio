@@ -16,15 +16,15 @@ const Projects = () => {
     <div ref={ref} className='projects'>
       <Title title='Some projects' subtitle='that I have been working on' />
       <div className='projects__box-container'>
-        <Box
+        {/* <Box
           title='react-typescript bolierplate'
           description='Boilerplate with the basic structure for a web app using React and Typescript.'
           tags={['Typescript', 'SASS', 'React', 'Webpack']}
           image={GitHubLogo}
           imageSize={LogoSize.XSMALL}
           url={URL.TYPESCRIPT_BOLIERPLATE}
-        />
-        <Box
+        /> */}
+        {/* <Box
           title='Catalogo de posibilidades exitosas'
           description='An installation that generates unique art for every interaction using augmented reality.'
           tags={['Javascript', 'A-frame']}
@@ -55,7 +55,7 @@ const Projects = () => {
           image={GitHubLogo}
           imageSize={LogoSize.XSMALL}
           url={URL.PROGRAMACION_ACCESIBLE}
-        />
+        /> */}
         <Box
           title='My website'
           description='This very same website, take a look under the hood.'
@@ -64,6 +64,14 @@ const Projects = () => {
           imageSize={LogoSize.XSMALL}
           url={URL.PORTFOLIO}
         />
+        <Box
+          title='ArqCalc'
+          description='Some calcs for bricklayers.'
+          tags={['Javascript', 'Angular', 'Ionic', 'C#']}
+          image={GitHubLogo}
+          imageSize={LogoSize.XSMALL}
+          url={URL.ARQCALC}
+        /> 
       </div>
     </div>
   );

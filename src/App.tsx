@@ -17,7 +17,7 @@ const App = () => (
       <Home />
       <WhoAmI />
       <WorkExperience />
-      <Youtube />
+      {/* <Youtube /> */}
       <Projects />
     </Main>
     <Sidebar />

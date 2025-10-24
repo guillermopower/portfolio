@@ -7,62 +7,122 @@ const initialState: TimelineState = {
   [
     {
       content: [
-        'Fully remote, fast paced engineering position for a leader US Fintech.',
-        'Build innovative functionality to help investors research stocks and understand market trends.',
+        'Hibrid position, Designed to Global Processing client, we build robust backend services for payment processing.',
+        'Build innovative functionality to process millions of transactions per day.',
         'Worked alongside a 10+ people team.',
       ],
-      header: 'May 2022 - Present',
+      header: 'May 2024 - Present',
       title: {
-        position: 'Sr Software developer',
+        position: 'Ssr Backend developer',
         company: {
-          name: 'Koyfin',
-          url: URL.KOYFIN,
+          name: 'BDT Global',
+          url: URL.BDTGLOBAL,
         },
       },
     },
     {
       content: [
-        'Building robust and sophisticated frontend applications in the leading Latin American Fintech.',
+        'Building robust, secure and sophisticated frontend applications and APIs for gaming users. (Betonline)',
         'Worked alongside a 15+ people team.',
-        'Some technologies used: React, NodeJS.',
+        'Some technologies used: Asp Classic, Javascript, SQL Server.',
       ],
-      header: 'November 2019 - May 2022',
+      header: 'September 2022 - April 2024',
       title: {
-        position: 'Sr Software developer',
+        position: 'Sr Backend developer',
         company: {
-          name: 'Mercado Libre',
-          url: URL.MERCADOLIBRE,
+          name: 'Paramo',
+          url: URL.PARAMO,
         },
       },
     },
     {
       content: [
-        'Alongside an interdisciplinary team, that goes from designing the user experience to the development of front and back end, we work to make web apps that are fast, easy to use and enjoyable.',
-        'Leading the frontend area in “Dirección General de Proyectos Tecnológicos y Gestión Documental”.',
-        'Worked alongside a 10 people team.',
-        'Some technologies used: Angular2, Vanilla JS, JQuery, +.',
+        'I worked on the development of an entire food order system, using a microservices architecture.',
+        'Worked alongside a 3 people team.',
+        'Some technologies used: Net Core, MongoDb, SQL, Angular 13+, Grpc, Microservices.',
       ],
       header: 'October 2017 - November 2019',
       title: {
-        position: 'Frontend Developer',
+        position: 'Backend Developer',
         company: {
-          name: 'Buenos Aires City Government',
-          url: URL.GCBA,
+          name: 'Siblings Software',
+          url: URL.SIBLINGS_SOFTWARE,
+        },
+      },
+    },
+  
+    {
+      content: [
+        'Building crm application for internal client, doing better and more productive the technical visits to customers.',
+        'Worked alongside a 15+ people team.',
+        'Some technologies used: Net Core, Vue JS, Javascript, Oracle.',
+      ],
+      header: 'October 2019 - March 2021',
+      title: {
+        position: 'Sr Fullstack developer',
+        company: {
+          name: 'Telecentro',
+          url: URL.TELECENTRO,
         },
       },
     },
     {
       content: [
-        'Full responsibility over technical and design aspects of websites.',
-        'Creating visual content  that boosts their profile for individuals and companies.',
-        'Some technologies used: React, JQuery, Bootstrap, Sass.',
+        'I worked for clients such as DTV Peru, DTV Argentina, Isban Chile, where I participated in the migration of technology from banking to companies. applying agile methodologies and best practices in software development such SOLID.',
+        'Worked alongside a 15+ people team.',
+        'Some technologies used: Net Core, Angular JS, Javascript, SQL Server.',
       ],
-      header: 'March 2016 - August  2019',
+      header: 'October 2018 - October 2019',
       title: {
-        position: 'Frontend Developer',
+        position: 'Sr Fullstack developer',
         company: {
-          name: 'Freelance',
-          url: URL.LINKEDIN,
+          name: 'Neoris',
+          url: URL.NEORIS,
+        },
+      },
+    },
+    {
+      content: [
+        'I worked on various robust and performant solutions for financial, credit and administrative processes. ',
+        'Also i participated in the functional analysis for new modules and maintenance of existing applications.',
+        'Some technologies used: C#, Asp Net, Bootstrap, SQL Server.',
+      ],
+      header: 'Feb 2018 - October  2018',
+      title: {
+        position: 'Full Stack Developer',
+        company: {
+          name: 'Cartasur',
+          url: URL.CARTASUR,
+        },
+      },
+    },
+    {
+      content: [
+        'I worked on in a dashboard for monitoring and analyzing cereals production, prices, futures using WPF for desktop application.',
+        'Also i participated in the functional analysis for new modules and maintenance of existing applications.',
+        'Some technologies used: WPF, DevExpress, C#, Asp Net, Bootstrap, SQL Server.',
+      ],
+      header: 'Jun 2016 - Feb 2018',
+      title: {
+        position: 'Full Stack Developer',
+        company: {
+          name: 'Garfinagro',
+          url: URL.GARFINAGRO,
+        },
+      },
+    },
+    {
+      content: [
+        'I did corrective and evolve maintenance for the greater medical portal in spanish language.',
+        'Also i created new plugins and widgets for different interactions between users and the portal.',
+        'Some technologies used: ASP Net, C#, Javascript, bootstrap, jquery, ajax, SQL Server',
+      ],
+      header: 'Jun 2012 - Jun 2016',
+      title: {
+        position: 'Full Stack Developer',
+        company: {
+          name: 'Medcenter Solutions',
+          url: URL.MEDCENTER_SOLUTIONS,
         },
       },
     },

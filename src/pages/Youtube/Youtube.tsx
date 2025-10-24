@@ -30,12 +30,12 @@ const YouTube = () => {
   return (
     <div ref={ref} className='youtube'>
       <div className='youtube__description-container'>
-        <Title title='My Youtube channel' />
+        <Title title='My Hobbies' />
         <p className='youtube__description'>
-          On my Youtube channel <b><Link href={URL.YOUTUBE}>Programación Accesible</Link></b> I share  what I know about <b>frontend, coding and design</b> (in Spanish).
+          On my Youtube channel <b><Link href={URL.YOUTUBE}>My hobbies</Link></b> I share some roads and paths in my bike.
         </p>
         <p className='youtube__description'>
-          It&apos;s a place where I can <b>help</b> others while I also <b>learn</b> new stuff and get to practice what I already know. Wanna have a look?
+          Mens sana in corpore sano. Wanna have a look?
         </p>
         <Link href={URL.YOUTUBE} type={LinkTypes.BUTTON}>
           <Button label='Visit my Youtube channel' />
@@ -43,7 +43,7 @@ const YouTube = () => {
       </div>
       <div ref={animationRef} className='youtube__billboard-container' data-animate={animationEntry?.isIntersecting}>
         <div className='youtube__billboard youtube__billboard-right'>
-          <div className='youtube__billboard-content'>Programación Accesible ©</div>
+          <div className='youtube__billboard-content'>guillermo rodriguez8701 ©</div>
         </div>
         {youtubeData.loaded && (
           <div className='youtube__billboard youtube__billboard-left'>
